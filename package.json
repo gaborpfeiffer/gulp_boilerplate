@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Gabor Pfeiffer",
   "license": "MIT",
+  "scripts": {
+    "dev": "live-server & npx gulp watcher"
+  },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "fibers": "^5.0.0",
