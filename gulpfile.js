@@ -14,7 +14,8 @@ function css() {
     return src('src/scss/**/*.{scss,sass}')
         .pipe(sourcemaps.init())
         .pipe(sass({
-            fiber: Fiber
+            fiber: Fiber,
+            outputStyle: 'compressed'
         }).on('error', sass.logError))
         .pipe(postcss([autoprefixer()]))
         .pipe(sourcemaps.write())
