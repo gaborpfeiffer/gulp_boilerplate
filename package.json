@@ -1,0 +1,22 @@
+{
+  "name": "gulp_boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp boilerplate",
+  "main": "index.js",
+  "author": "Gabor Pfeiffer",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "fibers": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.37.5"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
