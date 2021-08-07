@@ -16,7 +16,7 @@ function css() {
         .pipe(sass({
             fiber: Fiber,
             outputStyle: 'compressed',
-            includePaths: ['./node_modules']
+            includePaths: ['node_modules']
         }).on('error', sass.logError))
         .pipe(postcss([autoprefixer()]))
         .pipe(sourcemaps.write())
