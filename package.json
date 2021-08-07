@@ -6,7 +6,7 @@
   "author": "Gabor Pfeiffer",
   "license": "MIT",
   "scripts": {
-    "dev": "live-server & npx gulp watcher"
+    "dev": "npx gulp watcher & live-server"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
