@@ -1,4 +1,4 @@
 CMD:
 
 1. npm install
-2. npx gulp watcher
+2. npm run dev
